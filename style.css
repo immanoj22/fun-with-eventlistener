@@ -1,0 +1,41 @@
+body{
+    margin:0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+p{
+    margin-left: 22px;
+}
+#box{
+    width: 200px;
+    height:25vh;
+    border-radius: 5px;
+    background-color: aquamarine;
+    font-weight: bolder;
+    font-size: 2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display:flex;
+    text-align: center;
+    align-items: center;
+}
+button{
+    margin-top: 5px;
+    cursor: pointer;
+    width:200px;
+    height: 5vh;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: rgb(73, 129, 18);
+    border-radius: 2px;
+    border: none;
+    color:white;
+}
+button:hover{
+    background-color:rgb(56, 68, 44);
+}
+button:active{
+    background-color:  rgba(74, 129, 18, 0.68);;
+}
